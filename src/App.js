@@ -12,7 +12,7 @@ function App() {
     <Router className>
       <Navbar />
       <Routes>
-        <Route exact path="/" exact element={<About />} />
+        <Route exact path="/React_Portfolio/" exact element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
