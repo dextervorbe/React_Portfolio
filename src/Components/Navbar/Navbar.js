@@ -34,13 +34,13 @@ const Navigation = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/">About Me</NavLink>
+              <NavLink href="/React_Portfolio">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/projects">Projects</NavLink>
+              <NavLink href="/React_Portfolio/projects">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="/React_Portfolio/contact">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
