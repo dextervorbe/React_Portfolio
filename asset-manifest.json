@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.9fbe4d68.css",
-    "main.js": "/react-gh-pages/static/js/main.2ae320a2.js",
-    "static/media/bottomDraw.gif": "/react-gh-pages/static/media/bottomDraw.5d600167c6952041ce73.gif",
-    "static/media/dndCreations.gif": "/react-gh-pages/static/media/dndCreations.7e3f5b4d07ae079c9628.gif",
-    "static/media/headshot2.jpg": "/react-gh-pages/static/media/headshot2.e27f6aa4e7f6111bff74.jpg",
-    "static/media/headshot.jpg": "/react-gh-pages/static/media/headshot.d0b1db5a7f63b719fc5b.jpg",
-    "static/media/dailyWeather.gif": "/react-gh-pages/static/media/dailyWeather.b36d17840888ee91601a.gif",
-    "static/media/mysql-logo.png": "/react-gh-pages/static/media/mysql-logo.167c88550478e6f0f85c.png",
-    "static/media/node-js-logo.png": "/react-gh-pages/static/media/node-js-logo.65e4a4fac191f94298d2.png",
-    "static/media/resume.pdf": "/react-gh-pages/static/media/resume.45782db1b73e0f1ef50a.pdf",
-    "static/media/javascript-logo.png": "/react-gh-pages/static/media/javascript-logo.8abcd9ed0d4e565e1f5c.png",
-    "static/media/CSS3-logo.png": "/react-gh-pages/static/media/CSS3-logo.1cc8d604eda9ffa7e425.png",
-    "static/media/bootstrap-logo.png": "/react-gh-pages/static/media/bootstrap-logo.f347ec0cc7da9fb0ff35.png",
-    "static/media/github-logo.png": "/react-gh-pages/static/media/github-logo.a83c245517c967e6a2db.png",
-    "static/media/React.js-logo.png": "/react-gh-pages/static/media/React.js-logo.c2861c4dff64d52adf93.png",
-    "static/media/email-logo.png": "/react-gh-pages/static/media/email-logo.b46bda71cb345c4ce547.png",
-    "static/media/linkedin-logo.png": "/react-gh-pages/static/media/linkedin-logo.0274bba9cbe5e5229fe9.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.9fbe4d68.css.map": "/react-gh-pages/static/css/main.9fbe4d68.css.map",
-    "main.2ae320a2.js.map": "/react-gh-pages/static/js/main.2ae320a2.js.map"
+    "main.css": "/React_Portfolio/static/css/main.9fbe4d68.css",
+    "main.js": "/React_Portfolio/static/js/main.7ddb5832.js",
+    "static/media/bottomDraw.gif": "/React_Portfolio/static/media/bottomDraw.5d600167c6952041ce73.gif",
+    "static/media/dndCreations.gif": "/React_Portfolio/static/media/dndCreations.7e3f5b4d07ae079c9628.gif",
+    "static/media/headshot2.jpg": "/React_Portfolio/static/media/headshot2.e27f6aa4e7f6111bff74.jpg",
+    "static/media/headshot.jpg": "/React_Portfolio/static/media/headshot.d0b1db5a7f63b719fc5b.jpg",
+    "static/media/dailyWeather.gif": "/React_Portfolio/static/media/dailyWeather.b36d17840888ee91601a.gif",
+    "static/media/mysql-logo.png": "/React_Portfolio/static/media/mysql-logo.167c88550478e6f0f85c.png",
+    "static/media/node-js-logo.png": "/React_Portfolio/static/media/node-js-logo.65e4a4fac191f94298d2.png",
+    "static/media/resume.pdf": "/React_Portfolio/static/media/resume.45782db1b73e0f1ef50a.pdf",
+    "static/media/javascript-logo.png": "/React_Portfolio/static/media/javascript-logo.8abcd9ed0d4e565e1f5c.png",
+    "static/media/CSS3-logo.png": "/React_Portfolio/static/media/CSS3-logo.1cc8d604eda9ffa7e425.png",
+    "static/media/bootstrap-logo.png": "/React_Portfolio/static/media/bootstrap-logo.f347ec0cc7da9fb0ff35.png",
+    "static/media/github-logo.png": "/React_Portfolio/static/media/github-logo.a83c245517c967e6a2db.png",
+    "static/media/React.js-logo.png": "/React_Portfolio/static/media/React.js-logo.c2861c4dff64d52adf93.png",
+    "static/media/email-logo.png": "/React_Portfolio/static/media/email-logo.b46bda71cb345c4ce547.png",
+    "static/media/linkedin-logo.png": "/React_Portfolio/static/media/linkedin-logo.0274bba9cbe5e5229fe9.png",
+    "index.html": "/React_Portfolio/index.html",
+    "main.9fbe4d68.css.map": "/React_Portfolio/static/css/main.9fbe4d68.css.map",
+    "main.7ddb5832.js.map": "/React_Portfolio/static/js/main.7ddb5832.js.map"
   },
   "entrypoints": [
     "static/css/main.9fbe4d68.css",
-    "static/js/main.2ae320a2.js"
+    "static/js/main.7ddb5832.js"
   ]
 }
