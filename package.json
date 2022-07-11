@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "homepage": "https://dextervorbe.github.io/react-gh-pages",
+  "name": "React_Portfolio",
+  "homepage": "https://dextervorbe.github.io/React_Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
