@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+:root {
+  --green: #5dd6a4;
+  --black: #0d1117;
+  --white: white;
+}
+
+
+body {
+  background-image: url("https://jessicaroots.com/wp-content/uploads/2018/03/portfolio-background-header.jpg");
+  background-position: center;
+}

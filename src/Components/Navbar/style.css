@@ -1,0 +1,48 @@
+/* Nav Bar CSS */
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: black;
+  }
+  
+  
+  .navbar h1 {
+      color: var(--green);
+    }
+  
+    .navbar .links {
+      margin-left: auto;
+    }
+  
+    .navbar a {
+      color: var(--green);
+      margin-left: 16px;
+      text-decoration: none;
+      padding: 6px;
+    }
+  
+    .navbar-light .navbar-nav .nav-link{
+      color:var(--green);
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .navbar-light .navbar-toggler {
+    border-color: white;
+    background-color: white;
+    color: white;
+  }
+  
+  .ml-3.navbar-brand{
+    color:var(--green);
+    &:hover {
+      color: var(--white);
+    }
+  }
+  

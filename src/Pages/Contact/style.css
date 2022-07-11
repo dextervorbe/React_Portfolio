@@ -1,0 +1,27 @@
+body {
+    background: none;
+}
+
+
+
+h3 {
+    color: black;
+}
+
+.logo {
+    height: 30px;
+    width: 35px;
+}
+
+a{
+    color: green;
+}
+
+a:hover {
+    color: black;
+}
+
+.headshot{
+    height: 225px;
+    width: 200px;
+}
