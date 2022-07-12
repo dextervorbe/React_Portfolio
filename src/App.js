@@ -18,7 +18,7 @@ function App() {
     //   </Routes>
     // </Router>
 
-    <BrowserRouter basename="React_Portfolio">
+    <BrowserRouter basename={process.env.BASE_URL}>
     <Navbar />
     <Routes>
     <Route exact path="/" element={<About />} />
