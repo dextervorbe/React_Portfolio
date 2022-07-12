@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import './style.css';
+import "./style.css";
 import styled from "styled-components";
 
 const Styles = styled.div`
@@ -34,13 +34,13 @@ const Navigation = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/">About Me</NavLink>
+              <NavLink href="#/">About Me</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/projects">Projects</NavLink>
+              <NavLink href="#/projects">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink href="#/contact">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

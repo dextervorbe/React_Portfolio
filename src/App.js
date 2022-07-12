@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes, Route, HashRouter } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Pages/AboutMe";
-import Projects from './Pages/Projects';
+import Projects from "./Pages/Projects";
 import Contact from "../src/Pages/Contact/index";
 // import Home from './Components';
 
@@ -18,14 +18,14 @@ function App() {
     //   </Routes>
     // </Router>
 
-    <BrowserRouter basename={process.env.BASE_URL}>
-    <Navbar />
-    <Routes>
-    <Route exact path="/" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-    </Routes>
-    </BrowserRouter>
+    <HashRouter hashType="noslash">
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={ <About />} />
+        <Route path="/projects" element={ <Projects />} />
+        <Route path="/contact" element={ <Contact />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
