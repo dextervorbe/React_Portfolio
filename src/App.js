@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Pages/AboutMe";
@@ -9,14 +9,23 @@ import Contact from "../src/Pages/Contact/index";
 
 function App() {
   return (
-    <Router className>
-      <Navbar />
-      <Routes>
-        <Route exact path="React_Portfolio/" exact element={<About />} />
-        <Route path="/React_Portfolio/projects" element={<Projects />} />
-        <Route path="/React_Portfolio/contact" element={<Contact />} />
-      </Routes>
-    </Router>
+    // <Router >
+    //   <Navbar />
+    //   <Routes>
+    //     <Route exact path="React_Portfolio/" element={<About />} />
+    //     <Route path="/React_Portfolio/projects" element={<Projects />} />
+    //     <Route path="/React_Portfolio/contact" element={<Contact />} />
+    //   </Routes>
+    // </Router>
+
+    <BrowserRouter basename="React_Portfolio">
+    <Navbar />
+    <Routes>
+    <Route exact path="/" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 
