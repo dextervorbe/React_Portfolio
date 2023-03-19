@@ -15,6 +15,7 @@ class Projects extends React.Component {
             <h1 className=" text-center pb-5">Projects!</h1>
             {/* <p className="lead text-center">See what I have built!</p> */}
             <hr className="my-4" />
+
                 {this.state.projects.map(project => (
                     <ProjectCard
                         projectName={project.projectName}
@@ -24,6 +25,7 @@ class Projects extends React.Component {
                         githubLink={project.githubLink}
                         deployedLink={project.deployedLink}
                     />
+                    
                 ))}
         </div>
         ) 
